@@ -87,7 +87,7 @@ Aplikasi sekarang dapat diakses melalui browser di alamat:
 
 ## Penggunaan Singkat
 - Saat Anda membuka aplikasi, Anda akan diarahkan ke halaman **Login**.
-- Gunakan data *login* bawaan dari `UserSeeder` admin@admin.com | password admin (atau buat *user* baru di *database* jika perlu).
+- Gunakan data *login* bawaan dari `UserSeeder` admin@admin.com | password rahasia123 (atau buat *user* baru di *database* jika perlu).
 - Jelajahi menu navigasi di sebelah kiri (Menu Master & Menu Transaksi).
 
 Selamat mencoba!
