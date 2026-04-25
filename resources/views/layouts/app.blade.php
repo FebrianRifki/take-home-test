@@ -26,23 +26,27 @@
                         <i class='bx bx-grid-alt'></i> Dashboard
                     </a>
                 </li>
+
+                <li class="nav-header" style="padding: 1rem 1rem 0.5rem; font-size: 0.75rem; text-transform: uppercase; color: #64748b; letter-spacing: 0.05em; font-weight: 600;">Menu Master</li>
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="{{ route('member.index') }}" class="{{ request()->routeIs('member.index') ? 'active' : '' }}">
                         <i class='bx bx-user'></i> Master Anggota
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="{{ route('book.index') }}" class="{{ request()->routeIs('book.index') ? 'active' : '' }}">
                         <i class='bx bx-book'></i> Master Buku
                     </a>
                 </li>
+
+                <li class="nav-header" style="padding: 1rem 1rem 0.5rem; font-size: 0.75rem; text-transform: uppercase; color: #64748b; letter-spacing: 0.05em; font-weight: 600;">Menu Transaksi</li>
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="{{ route('borrow.index') }}" class="{{ request()->routeIs('borrow.index') ? 'active' : '' }}">
                         <i class='bx bx-transfer'></i> Peminjaman
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="{{ route('return.index') }}" class="{{ request()->routeIs('return.index') ? 'active' : '' }}">
                         <i class='bx bx-archive-in'></i> Pengembalian
                     </a>
                 </li>

@@ -15,4 +15,9 @@ class BookReturn extends Model
         'borrowing_id',
         'return_date',
     ];
+
+    public function borrowing()
+    {
+        return $this->belongsTo(Borrowing::class, 'borrowing_id');
+    }
 }

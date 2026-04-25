@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('publisher');
-            $table->string('dimensi')->nullable();
+            $table->string('dimension')->nullable();
             $table->integer('stock')->default(0);
             $table->timestamps();
         });
